@@ -11,3 +11,4 @@ Put your images in:
 Put your code in:
 
 > index.html
+#1F00DB #B214DB #6600DB #2F4FE0 #E004B0 #802DDC
