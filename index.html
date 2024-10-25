@@ -1,16 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Background Change</title>
+</head>
+<body style="background-color: white;">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDMX 225 Midterm</title>
-
-    <!-- Link in your CSS here -->
+     <!-- Link in your CSS here -->
+    <style>
+        #brand { 
+            font-size: 3rem;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: red;
+        }
+        .MF { 
+           font-size: 2rem;
+           font-family: Arial, Helvetica, sans-serif;
+           text-align: center;
+           color: blue;
+           border: 3px solid blue;
+           padding: 1px;
+           border-radius: 15px;
+           background-color: black;
+        }
+        .description1title {
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: blue;
+            border: 2px solid blue;
+            
+        }
+        .description1 {
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: blue;
+            border: 2px solid blue;
+        }
+        .description2title {
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: blue;
+            border: 2px solid blue;
+        }
+        .description2 {
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: blue;
+            border: 2px solid blue;
+        }
+        .description3title {
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: blue;
+            border: 2px solid blue;
+        }
+        .description3 {
+            font-size: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: blue;
+            border: 2px solid blue;
+        }
+        #reviews {
+            font-size: 1rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            color: blueviolet;
+        }
+        .review1 {
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: blueviolet;
+            border: 2px solid  black;
+        }
+        .name-title-rating {
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: blueviolet;
+            border: 2px solid  black;
+        }
+        .review2 {
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: blueviolet;
+            border: 2px solid  black;
+        }
+        .review3 {
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: blueviolet;
+            border: 2px solid  black;
+        }
+    </style>
 </head>
 <body>
     
 <header>
-    <h1>Daniels Music Festival</h1>
+    <section id="brand">
+    <h1>Daniels Music Festivals</h1>
+    </section>
     <section id="hero">
         <!-- Make a spiffy hero here -->
    </section>
@@ -18,26 +117,34 @@
 <main>
     
     <!-- List of Music Festivals -->
-    <section id="Music Festivals">
+    <section id="musicFestivals1">
+        <div class="MF">
         <h1>Music Festivals</h1>
-        <div class="Music Festivals">
-            <img src="" alt="">
-            <div class="description">
-                <h2>Daniels Rap Festival at Hard Rock Stadium in Miami, FL on Dec 8-9.</h3> 
+        </div>
+        <div class="Festivals">
+            <img src="rap.png" alt="AI rap festival">
+            <div class="description1title">
+                <h2>Daniels Rap Festival at Hard Rock Stadium in Miami, FL on Dec 8-9.</h2> 
+            </div>
+                <div class="description1">
                 <h3>If you want to get turnt to the loud sounds of Hi-hats and 808s then joining us for our Rap Festival is your right move. Headlined by Juice wrld, Travis Scott, and PlayBoi Carti who wouldnt want to miss the rage of this action packed three day festival.</h3>
             </div>
         </div>
-        <div class="Music Festivals">
-            <img src="" alt="">
-            <div class="description">
-                <h2>Daniels Rock And Pop Punk Festival at Citi Field in Queens, NY on Mar 29-31.</h3> 
+        <div class="Festivals">
+            <img src="rock.png" alt="Ai rock festival">
+            <div class="description2title">
+                <h2>Daniels Rock And Pop Punk Festival at Citi Field in Queens, NY on Mar 29-31.</h2> 
+            </div>
+                <div class="description2">
                 <h3>If you have a pation for rocking and rolling then this Rock and Pop punk festival is for you get ready to hear those loud drums banging and dont be afraid to open up those pits. this year our headliners will be LINKIN PARK, Paramore, and Limp Bizkit with many more acts to be anounced. Our only question is ARE. YOU. READY.   </h3>
             </div>
         </div>
-        <div class="Music Festivals">
-            <img src="" alt="">
-            <div class="description">
-                <h2>Daniels Latin Music Festival at SoFi Stadium in Inglewood, CA on Jul 12-14.</h3> 
+        <div class="Festivals">
+            <img src="latin.png" alt="Ai latin  music  festival">
+            <div class="description3title">
+                <h2>Daniels Latin Music Festival at SoFi Stadium in Inglewood, CA on Jul 12-14.</h2> 
+            </div>
+                <div class="description3">
                 <h3>if you love the sounds of latin music this Latin Music Festival is going to be right up your ally with headlining acts by Bad Bunny, Aventura, and Rauw Alejandro as well as a special DJ set from Bizarrap and many more artists also performing why dont you grab your partners or friends and injoy the Latin Music thats loved by all.     </h3>
             </div>
         </div>
@@ -46,7 +153,7 @@
     <!-- List of Reviews -->
     <section id="reviews">
         <h1>Reviews</h1>
-        <div class="review">
+        <div class="review1">
             <div class="name"></div>
             <h3>Micheal White</h3>
             <div class="title"></div>
@@ -56,7 +163,7 @@
             <div class="content"></div>
             <h2>The Festival was great my Favorite thing about the festival is that i got to see al of my Favorite artist in one place. I would definitely recomend going to this festival if you are a fan of rap music. </h2>
         </div>
-        <div class="review">
+        <div class="review2">
             <div class="name"></div>
             <h3>Chester Bennington</h3>
             <div class="title"></div>
@@ -66,7 +173,7 @@
             <div class="content"></div>
             <h2>The Festival itself was amazing but the crowd was being rude and doing stupid stuff like pushing people for no reason i would recomend it as it was a very good experience just come prepared. </h2>
         </div>
-        <div class="review">
+        <div class="review3">
             <div class="name"></div>
             <h3>Nicole Cucco</h3>
             <div class="title"></div>
